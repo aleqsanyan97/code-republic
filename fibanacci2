@@ -1,0 +1,10 @@
+function fib(n)
+{const result=[0.1];
+for (let i=2 ; i<n; ++i)
+{const num1=result[i-1];
+const num2=result[i-2];
+result.push(num1+num2);
+}
+return result;
+}
+console.log(fib(n));
